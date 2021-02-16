@@ -1,5 +1,7 @@
 <?php include_once("connect.php"); ?>
 <?php include_once("functions.php"); ?>
+<?php session_start();
+?>
 <?php
 if(isset($_SESSION['user_id'])) {
  // Login OK, update last active
