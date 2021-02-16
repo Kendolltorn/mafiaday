@@ -1,6 +1,8 @@
 <?php include_once("connect.php"); ?>
-<?php ob_start(); ?>
 
+<?php session_start();
+?>
+<?php ob_start(); ?>
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
